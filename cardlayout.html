@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        .parent {
+            background-color: lightblue;
+            width: 82em;
+            height: 300em;
+            margin: 5px;
+            transition: 0.3s;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .child {
+            padding: 0em;
+            margin: 5px;
+        }
+
+        .card {
+            margin: 25px;
+            width: 350px;
+            height: 425px;
+            box-shadow: 0 15px 8px 0 cadetblue  ;
+            background-color: pink;
+            
+        }
+
+        img {
+            border-radius: 5px 5px 0 0;
+            margin-top: 10px;
+            float: center;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 black;
+            
+        }
+        button{
+            border-radius: 12px;
+            border-style: hidden;
+            background-color: darkcyan;
+            font-size: 15px;
+            padding: 15px 32px;
+            
+            
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 align="center"> Layout Design</h2>
+    <div class="parent">
+        
+        <div class="card">
+            <img class="center" src="alpha.png" width="200px" height="250px" alt="alpha image" ></img>
+            <div class="child">
+                <h3 align="center">James Martin</h3>
+                <p>I am MERN Stack Devloper we are currently work on to the Project.we are happy to help.</p>
+                <a href="#"src="#"><button >View Profile</button></a>
+            </div>
+
+        </div>
+        <div class="card">
+            <img class="center" src="alpha.png" width="200px" height="250px" alt="alpha image" ></img>
+            <div class="child">
+                <h3 align="center">James Martin</h3>
+                <p>I am MERN Stack Devloper we are currently work on to the Project.we are happy to help.</p>
+                <a href="#"src="#"><button >View Profile</button></a>
+            </div>
+
+        </div>
+        <div class="card">
+            <img class="center" src="alpha.png" width="200px" height="250px" alt="alpha image" ></img>
+            <div class="child">
+                <h3 align="center">James Martin</h3>
+                <p>I am MERN Stack Devloper we are currently work on to the Project.we are happy to help.</p>
+                <a href="#"src="#"><button >View Profile</button></a>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+
+</html>
